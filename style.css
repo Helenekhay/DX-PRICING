@@ -5,6 +5,7 @@
 }
 body{
     display: block;
+    min-width: none;
 }
 
 .btn{
@@ -55,7 +56,7 @@ header p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 12px;
     /* margin: 15px 10px; */
     padding: 7px;
     
@@ -68,13 +69,12 @@ header p{
 }
 main{
     border: 2px solid black;
-    border-radius: 20px; 
+    border-radius: 25px; 
     padding: 30px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
-
+    margin: 15px;
 }
 .first-section{
     padding: 25px;

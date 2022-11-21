@@ -1,8 +1,19 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 880px) {
     header{
-        display: flex;
-        flex-wrap: wrap;
-        
+        margin-top: 20px;
     }
+    header p{
+        text-align: center;
+        font-size: 28px;
     
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .vl{
+        display: none;
+    }
+
 }
